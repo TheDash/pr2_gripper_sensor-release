@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-gripper-sensor-action
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-pr2-controllers-msgs, ros-hydro-pr2-gripper-sensor-controller, ros-hydro-pr2-gripper-sensor-msgs, ros-hydro-pr2-machine, ros-hydro-pr2-mechanism-controllers, ros-hydro-pr2-mechanism-model, ros-hydro-robot-mechanism-controllers, ros-hydro-roscpp
+Homepage: None
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-gripper-sensor-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-message-runtime, ros-hydro-pr2-controllers-msgs, ros-hydro-pr2-gripper-sensor-controller, ros-hydro-pr2-gripper-sensor-msgs, ros-hydro-pr2-machine, ros-hydro-pr2-mechanism-controllers, ros-hydro-pr2-mechanism-model, ros-hydro-robot-mechanism-controllers, ros-hydro-roscpp
+Description: The pr2_gripper_sensor_action package provides an action interface for talking to the pr2_gripper_sensor_controller real-time controller. It provides several different actions for getting high-level sensor information from the PR2 palm-mounted accelerometers, fingertip pressure arrays, and gripper motor/encoder, as well as several sensor-based gripper control actions that respond with low-latency in real-time.
