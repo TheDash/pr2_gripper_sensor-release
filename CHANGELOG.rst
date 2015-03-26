@@ -2,6 +2,9 @@
 Changelog for package pr2_gripper_sensor_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.7 (2015-03-26)
+------------------
+
 1.0.6 (2015-03-17)
 ------------------
 * add install settings for catkin_make
