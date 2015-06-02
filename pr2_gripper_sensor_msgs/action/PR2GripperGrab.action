@@ -1,9 +1,0 @@
-#goal
-PR2GripperGrabCommand command
----
-#result
-PR2GripperGrabData data
----
-
-#feedback
-PR2GripperGrabData data
