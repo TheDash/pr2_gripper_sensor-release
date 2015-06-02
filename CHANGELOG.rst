@@ -2,6 +2,11 @@
 Changelog for package pr2_gripper_sensor_controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.8 (2015-06-02)
+------------------
+* Fixed catkin install loc
+* Contributors: TheDash
+
 1.0.7 (2015-03-26)
 ------------------
 * Added launch file install
